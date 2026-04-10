@@ -1,6 +1,0 @@
-if we try to open a file that doesn't exist it gives the error : FileNotFoundError
-and these kind of errors can be avoided using "try" and "except" 
-we can write something like :
-except FileNotFoundError:
-    print("Error: File Not Found.")
-    

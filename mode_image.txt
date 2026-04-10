@@ -1,6 +1,0 @@
-mode basically tells what kind of colour information each pixel of the image holds.
-for eg : RGB : Red Green Blue - colors are formed using the muktiple shades of red green and blue.
-
-Two images of same scene can have different modes , beacuse it is possible for them to look same even with different colour schemes.
-AND Mode of an image can be edited also using EDIT MODE feature with different softwares.
- 
