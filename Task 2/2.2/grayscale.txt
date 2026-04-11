@@ -1,2 +1,2 @@
-grayscale has colors in different shades of gray only ( ranging from black to white) 
+grayscale has colors in different shades of gray only ( ranging from black to white) .
 so it removes the color information.
