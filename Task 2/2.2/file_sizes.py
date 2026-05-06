@@ -8,5 +8,5 @@ print(size1 , size2)
 
 '''png reduces size by compressing the data. So if the data is simple colours , shapes etc , png
 compresses it  efficiently . so the size becomes smaller. BUT if the data is a large number of colours
-and very compplex designs etc , png keeps everything unchanges . hence the size becomes larger. '''
+and very compplex designs etc , png keeps everything unchanged . hence the size becomes larger. '''
  

@@ -3,4 +3,4 @@ so the image only has 3 colur pixels : RED , GREEN , BLUE .
 so if the image initially (before conversion) was in RGBA mode - then with RGB , it's transparency
 property will go .
 WHY  ?
-jpg or jpeg only supports RGB mode (not RGBA) so to save an image in jpg format , we convert it into RGB!
+jpg (or jpeg) only supports RGB mode (not RGBA) so to save an image in jpg format , we convert it into RGB!
