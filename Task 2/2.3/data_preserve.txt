@@ -1,0 +1,2 @@
+On changing "Task 2/2.3/imae2.jpg" to png ( mode "1") , and printing the exif data in the new ( png ) image , it shows NONE. 
+So in this case , it DOES NOT preserve the Exif Data on saving the image file again with Pillow.

@@ -1,0 +1,1 @@
+EXIF may reveal the private info about the images like location , date and time captured , camera model etc .

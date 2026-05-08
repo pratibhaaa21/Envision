@@ -1,0 +1,5 @@
+EXIF : Exchangeable Image File Format
+it is metadata ( data baout the data) stored INSIDE the image file .
+It stores info about camera model , gps ocation , exposure settings , date and  time of the oicture captured , etc .
+
+It is stored inside the image / file - seperate sections than the pixel info .

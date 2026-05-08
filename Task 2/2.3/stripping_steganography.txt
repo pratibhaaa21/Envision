@@ -1,0 +1,5 @@
+if the Exif Data is not stripped thdn again , it can cause privacy issue .
+and , stripping the Exif Data makes the image cleaner ( and prevents info leakage)
+
+but for steganography - it DOES NOT technically matter , beacuse the added text/message is stored in pixel data ( not exif data )
+so removing exif data- will not destroy the message .
