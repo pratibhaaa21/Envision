@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Invisible Ink</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="navbar">
+
+    <p id="logo">INVISIBLE INK</p>
+
+    <div class="navbuttons">
+        <button onclick="showEncode()" id="injectnav">inject data</button>
+        <button onclick="showDecode()" id="extractnav">extract data</button>
+    </div>
+
+</div>
+
+<div id="encodePage">
+    <h1 id="intro">Encode Secret Message</h1>
+    <h2 id="subheading">
+        Embed encrypted text data safely into a carrier image without altering its visual appearance.
+    </h2>
+
+    <div class="container">
+
+        <div class="box1">
+
+            <p>1) Upload Carrier Image</p>
+
+            <div class="upload">
+
+                <img src="upload logo.jpg" alt="upload logo">
+
+                <br><br>
+
+                <input type="file">
+
+            </div>
+
+            <p>2) Enter Secret Payload (Text to hide)</p>
+
+            <textarea placeholder="Enter your text here...."></textarea>
+
+            <br>
+
+            <button id="injectbutton">Inject</button>
+
+        </div>
+
+
+        <div class="box2">
+
+            <div class="loading">
+
+                <img src="loading logo.png" alt="loading logo">
+
+                <p>Awaiting Carrier Image...</p>
+
+            </div>
+            <br>
+            <button id="download">Download</button>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+<div id="decodePage">
+
+    <h1 id="intro">Decode Hidden Message</h1>
+    <h2 id="subheading">
+
+        Analyze an image artifact to extract and decrypt hidden steganographic data
+
+    </h2>
+
+    <div class="container">
+
+        <div class="box1">
+
+            <p>1) Upload Encoded Image</p>
+
+            <div class="upload">
+
+                <img src="upload logo.jpg" alt="upload logo">
+
+                <br><br>
+
+                <input type="file">
+
+            </div>
+
+            <br>
+
+            <button id="extractbutton">Extract</button>
+
+        </div>
+
+        <div class="box2">
+
+            <p>Recovered Payload</p>
+
+            <div class="analysis">
+
+                <p id="waiting">>> Waiting for image analysis</p>
+
+            </div>
+
+            <br>
+
+            <button id="copy">copy to clipboard</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+function showEncode(){
+
+    document.getElementById("encodePage").style.display = "block";
+
+    document.getElementById("decodePage").style.display = "none";
+
+}
+
+function showDecode(){
+
+    document.getElementById("encodePage").style.display = "none";
+
+    document.getElementById("decodePage").style.display = "block";
+
+}
+
+</script>
+
+</body>
+
+</html>

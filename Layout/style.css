@@ -1,0 +1,105 @@
+body{
+    background-color: #14532d;
+    color: white;
+    font-family: Arial;
+    padding: 40px;
+}
+
+.navbar{
+    background-color: black;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+#logo{
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbuttons{
+    float: right;
+}
+
+#injectnav,
+#extractnav{
+    background-color: #22c55e;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+#intro{
+    margin-top: 50px;
+    font-size: 45px;
+}
+
+#subheading{
+    color: lightgray;
+    width: 700px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.box1,
+.box2{
+    background-color: black;
+    width: 42%;
+    padding: 25px;
+    border-radius: 30px;
+}
+
+.upload,
+.loading,
+.analysis{
+    background-color: #052e16;
+    height: 300px;
+    border-radius: 25px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.upload img,
+.loading img{
+    width: 160px;
+    height: 160px;
+}
+
+
+textarea{
+    width: 90%;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #052e16;
+    color: white;
+    padding: 15px;
+}
+
+
+#injectbutton,
+#extractbutton,
+#download,
+#copy{
+    background-color: #86efac;
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+
+#decodePage{
+
+    display: none;
+}
